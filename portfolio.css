@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-image: url("port.jpg"); /* Fix: Correct background image syntax */
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0; /* Remove duplicate body styles */
+    padding: 0; /* Remove duplicate body styles */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+/* Main Section Styles */
+section {
+    padding: 50px 0;
+}
+
+section h2 {
+    margin-bottom: 20px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0; /* Fix: Correct padding value */
+}
+
+.container-form {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: lavenderblush;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px black;
+}
+
+.container-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid bisque;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: blue;
+    color: lightblue;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+    background-color: lightblue; /* Fix: Change background color on hover */
+}
+#first{
+    color:burlywood;
+}
+#second{
+    color:red;
+}
